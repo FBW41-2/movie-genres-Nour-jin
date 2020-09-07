@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.box {
+	text-align: center;
+	padding: 30px;
+	width: 500px;
+}
+.box1 {
+	background: dodgerblue;
+	flex-grow: 1;
+}
+
+.box2 {
+	background: rgb(190, 178, 178);
+	flex-grow: 2;
+}
+
+.box3 {
+	background: rgb(255, 214, 30);
+	flex-grow: 2;
+}
+
+.box4 {
+	background: black;
+	flex-grow: 1;
+	color: #fff;
+}
+
+.box5 {
+	background: darkgray;
+	flex-grow: 1;
+}
+
+.box6 {
+	background: red;
+	flex-grow: 1;
+}
